@@ -1,11 +1,13 @@
 %Create the following rules for a family tree describing your family:
 
-%1)sister 
-%2)brother 
-%3)grandparent 
-%4)cousin  
-%5)father 
-%6)uncle and aunt
+%1)sister sister(shivani,preeti).
+
+%2)brother  brother(sashi,preeti).
+%3)grandparent  grandparent(ram,preeti).
+%4)cousin   cousin(anil,preeti).
+%5)father  father(raj,preeti).
+%6)uncle and aunt  uncle(karam,preeti).
+ aunt(indu,preeti).
 
 
 %Knowledge Base (Collection of facts)
