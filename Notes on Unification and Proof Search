@@ -1,0 +1,25 @@
+Unification: 
+
+Formal Definition: Two terms unify if they are the same term or if they contain variables that can be uniformly instantiated with terms in such a way that the resulting terms are equal.  
+
+
+Let woman(X) be defined by the rule  
+woman(X) :- female(X). 
+
+Let the fact(s) 
+female(mia).  be in the Knowledge Base.     
+
+Imagine the following query, 
+? woman(mia). 
+
+Prolog unifies woman(X) with woman(mia) , thereby instantiating the variable X to mia .
+Simplified steps the Prolog Interpreter takes (try running the program using ?trace woman(mia)) 
+
+1) X is instantiated as the atom  mia.
+2) Prolog searches a knowledge base to see if query is satisfied (proof search) 
+3) Prolog continues to unify and search the KB to determine if the query can be
+satisfied.
+
+
+Read More Here: 
+http://lpn.swi-prolog.org/lpnpage.php?pagetype=html&pageid=lpn-htmlch2
